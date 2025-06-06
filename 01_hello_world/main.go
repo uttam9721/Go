@@ -1,7 +1,7 @@
-package main
+package main             // Defines the main package — required for executables
 
-import "fmt"
+import "fmt"             // Imports the fmt package to use Println
 
-func main(){
-	fmt.Println("Hello world")
+func main() {            // Entry point of the program
+    fmt.Println("Hello world")  // Prints "Hello world" to the console
 }
